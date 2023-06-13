@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0E33992A33F033008B01E7 /* DancasinfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0E33982A33F033008B01E7 /* DancasinfoView.swift */; };
+		6D8A85962A3393B0002C4246 /* Teladedança.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A85952A3393B0002C4246 /* Teladedança.swift */; };
+		6DBD37222A33969B0065A615 /* dancasinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD37212A33969B0065A615 /* dancasinfo.swift */; };
+		6DBD37282A33DA550065A615 /* dancascardlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD37272A33DA550065A615 /* dancascardlistView.swift */; };
 		6DDF84062A33927C003A6B15 /* appdedancinhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84052A33927C003A6B15 /* appdedancinhaApp.swift */; };
 		6DDF84082A33927C003A6B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84072A33927C003A6B15 /* ContentView.swift */; };
 		6DDF840A2A339281003A6B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DDF84092A339281003A6B15 /* Assets.xcassets */; };
@@ -14,6 +18,8 @@
 		6DDF84172A339281003A6B15 /* appdedancinhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84162A339281003A6B15 /* appdedancinhaTests.swift */; };
 		6DDF84212A339281003A6B15 /* appdedancinhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84202A339281003A6B15 /* appdedancinhaUITests.swift */; };
 		6DDF84232A339281003A6B15 /* appdedancinhaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84222A339281003A6B15 /* appdedancinhaUITestsLaunchTests.swift */; };
+		6DDF84302A339349003A6B15 /* Telainicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF842F2A339349003A6B15 /* Telainicial.swift */; };
+		6DDF84322A33936A003A6B15 /* Teladeperfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84312A33936A003A6B15 /* Teladeperfil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0E33982A33F033008B01E7 /* DancasinfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancasinfoView.swift; sourceTree = "<group>"; };
+		6D8A85952A3393B0002C4246 /* Teladedança.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teladedança.swift"; sourceTree = "<group>"; };
+		6DBD37212A33969B0065A615 /* dancasinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancasinfo.swift; sourceTree = "<group>"; };
+		6DBD37272A33DA550065A615 /* dancascardlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancascardlistView.swift; sourceTree = "<group>"; };
 		6DDF84022A33927C003A6B15 /* appdedancinha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appdedancinha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDF84052A33927C003A6B15 /* appdedancinhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaApp.swift; sourceTree = "<group>"; };
 		6DDF84072A33927C003A6B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +54,8 @@
 		6DDF841C2A339281003A6B15 /* appdedancinhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appdedancinhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDF84202A339281003A6B15 /* appdedancinhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaUITests.swift; sourceTree = "<group>"; };
 		6DDF84222A339281003A6B15 /* appdedancinhaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DDF842F2A339349003A6B15 /* Telainicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telainicial.swift; sourceTree = "<group>"; };
+		6DDF84312A33936A003A6B15 /* Teladeperfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teladeperfil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,12 @@
 				6DDF84072A33927C003A6B15 /* ContentView.swift */,
 				6DDF84092A339281003A6B15 /* Assets.xcassets */,
 				6DDF840B2A339281003A6B15 /* Preview Content */,
+				6DDF842F2A339349003A6B15 /* Telainicial.swift */,
+				6DDF84312A33936A003A6B15 /* Teladeperfil.swift */,
+				6D8A85952A3393B0002C4246 /* Teladedança.swift */,
+				6DBD37212A33969B0065A615 /* dancasinfo.swift */,
+				6DBD37272A33DA550065A615 /* dancascardlistView.swift */,
+				6D0E33982A33F033008B01E7 /* DancasinfoView.swift */,
 			);
 			path = appdedancinha;
 			sourceTree = "<group>";
@@ -257,7 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0E33992A33F033008B01E7 /* DancasinfoView.swift in Sources */,
+				6DDF84302A339349003A6B15 /* Telainicial.swift in Sources */,
 				6DDF84082A33927C003A6B15 /* ContentView.swift in Sources */,
+				6D8A85962A3393B0002C4246 /* Teladedança.swift in Sources */,
+				6DBD37222A33969B0065A615 /* dancasinfo.swift in Sources */,
+				6DDF84322A33936A003A6B15 /* Teladeperfil.swift in Sources */,
+				6DBD37282A33DA550065A615 /* dancascardlistView.swift in Sources */,
 				6DDF84062A33927C003A6B15 /* appdedancinhaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
