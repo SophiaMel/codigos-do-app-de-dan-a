@@ -23,6 +23,8 @@
 		6DDF84232A339281003A6B15 /* appdedancinhaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84222A339281003A6B15 /* appdedancinhaUITestsLaunchTests.swift */; };
 		6DDF84302A339349003A6B15 /* Telainicial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF842F2A339349003A6B15 /* Telainicial.swift */; };
 		6DDF84322A33936A003A6B15 /* Teladeperfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84312A33936A003A6B15 /* Teladeperfil.swift */; };
+		CEAB09C72A3CE31C0050FF7F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB09C62A3CE31C0050FF7F /* CardView.swift */; };
+		CEAB09C92A3CED6D0050FF7F /* CardInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB09C82A3CED6D0050FF7F /* CardInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,18 +52,20 @@
 		6D931F052A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelaPerfil-ViewModel.swift"; sourceTree = "<group>"; };
 		6DBD37212A33969B0065A615 /* dancasinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancasinfo.swift; sourceTree = "<group>"; };
 		6DBD37272A33DA550065A615 /* dancascardlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancascardlistView.swift; sourceTree = "<group>"; };
-		6DDF84022A33927C003A6B15 /* appdedancinha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appdedancinha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDF84022A33927C003A6B15 /* appDanca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appDanca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDF84052A33927C003A6B15 /* appdedancinhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaApp.swift; sourceTree = "<group>"; };
 		6DDF84072A33927C003A6B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DDF84092A339281003A6B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DDF840C2A339281003A6B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6DDF84122A339281003A6B15 /* appdedancinhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appdedancinhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDF84122A339281003A6B15 /* appDancaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appDancaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDF84162A339281003A6B15 /* appdedancinhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaTests.swift; sourceTree = "<group>"; };
-		6DDF841C2A339281003A6B15 /* appdedancinhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appdedancinhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDF841C2A339281003A6B15 /* appDancaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appDancaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DDF84202A339281003A6B15 /* appdedancinhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaUITests.swift; sourceTree = "<group>"; };
 		6DDF84222A339281003A6B15 /* appdedancinhaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appdedancinhaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6DDF842F2A339349003A6B15 /* Telainicial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Telainicial.swift; sourceTree = "<group>"; };
 		6DDF84312A33936A003A6B15 /* Teladeperfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teladeperfil.swift; sourceTree = "<group>"; };
+		CEAB09C62A3CE31C0050FF7F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CEAB09C82A3CED6D0050FF7F /* CardInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +106,9 @@
 		6DDF84032A33927C003A6B15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6DDF84022A33927C003A6B15 /* appdedancinha.app */,
-				6DDF84122A339281003A6B15 /* appdedancinhaTests.xctest */,
-				6DDF841C2A339281003A6B15 /* appdedancinhaUITests.xctest */,
+				6DDF84022A33927C003A6B15 /* appDanca.app */,
+				6DDF84122A339281003A6B15 /* appDancaTests.xctest */,
+				6DDF841C2A339281003A6B15 /* appDancaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +120,8 @@
 				6DDF84072A33927C003A6B15 /* ContentView.swift */,
 				6DDF84092A339281003A6B15 /* Assets.xcassets */,
 				6DDF840B2A339281003A6B15 /* Preview Content */,
+				CEAB09C62A3CE31C0050FF7F /* CardView.swift */,
+				CEAB09C82A3CED6D0050FF7F /* CardInfoView.swift */,
 				6DDF842F2A339349003A6B15 /* Telainicial.swift */,
 				6DDF84312A33936A003A6B15 /* Teladeperfil.swift */,
 				6D8A85952A3393B0002C4246 /* Teladedança.swift */,
@@ -157,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6DDF84012A33927C003A6B15 /* appdedancinha */ = {
+		6DDF84012A33927C003A6B15 /* appDanca */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DDF84262A339281003A6B15 /* Build configuration list for PBXNativeTarget "appdedancinha" */;
+			buildConfigurationList = 6DDF84262A339281003A6B15 /* Build configuration list for PBXNativeTarget "appDanca" */;
 			buildPhases = (
 				6DDF83FE2A33927C003A6B15 /* Sources */,
 				6DDF83FF2A33927C003A6B15 /* Frameworks */,
@@ -169,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = appdedancinha;
+			name = appDanca;
 			productName = appdedancinha;
-			productReference = 6DDF84022A33927C003A6B15 /* appdedancinha.app */;
+			productReference = 6DDF84022A33927C003A6B15 /* appDanca.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6DDF84112A339281003A6B15 /* appdedancinhaTests */ = {
+		6DDF84112A339281003A6B15 /* appDancaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DDF84292A339281003A6B15 /* Build configuration list for PBXNativeTarget "appdedancinhaTests" */;
+			buildConfigurationList = 6DDF84292A339281003A6B15 /* Build configuration list for PBXNativeTarget "appDancaTests" */;
 			buildPhases = (
 				6DDF840E2A339281003A6B15 /* Sources */,
 				6DDF840F2A339281003A6B15 /* Frameworks */,
@@ -187,14 +193,14 @@
 			dependencies = (
 				6DDF84142A339281003A6B15 /* PBXTargetDependency */,
 			);
-			name = appdedancinhaTests;
+			name = appDancaTests;
 			productName = appdedancinhaTests;
-			productReference = 6DDF84122A339281003A6B15 /* appdedancinhaTests.xctest */;
+			productReference = 6DDF84122A339281003A6B15 /* appDancaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6DDF841B2A339281003A6B15 /* appdedancinhaUITests */ = {
+		6DDF841B2A339281003A6B15 /* appDancaUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6DDF842C2A339281003A6B15 /* Build configuration list for PBXNativeTarget "appdedancinhaUITests" */;
+			buildConfigurationList = 6DDF842C2A339281003A6B15 /* Build configuration list for PBXNativeTarget "appDancaUITests" */;
 			buildPhases = (
 				6DDF84182A339281003A6B15 /* Sources */,
 				6DDF84192A339281003A6B15 /* Frameworks */,
@@ -205,9 +211,9 @@
 			dependencies = (
 				6DDF841E2A339281003A6B15 /* PBXTargetDependency */,
 			);
-			name = appdedancinhaUITests;
+			name = appDancaUITests;
 			productName = appdedancinhaUITests;
-			productReference = 6DDF841C2A339281003A6B15 /* appdedancinhaUITests.xctest */;
+			productReference = 6DDF841C2A339281003A6B15 /* appDancaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -233,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6DDF83FD2A33927C003A6B15 /* Build configuration list for PBXProject "appdedancinha" */;
+			buildConfigurationList = 6DDF83FD2A33927C003A6B15 /* Build configuration list for PBXProject "appDanca" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -246,9 +252,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6DDF84012A33927C003A6B15 /* appdedancinha */,
-				6DDF84112A339281003A6B15 /* appdedancinhaTests */,
-				6DDF841B2A339281003A6B15 /* appdedancinhaUITests */,
+				6DDF84012A33927C003A6B15 /* appDanca */,
+				6DDF84112A339281003A6B15 /* appDancaTests */,
+				6DDF841B2A339281003A6B15 /* appDancaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -290,10 +296,12 @@
 				6D8A85962A3393B0002C4246 /* Teladedança.swift in Sources */,
 				6D931F062A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift in Sources */,
 				6D931F002A3BE79200B208E4 /* ApresentaView.swift in Sources */,
+				CEAB09C92A3CED6D0050FF7F /* CardInfoView.swift in Sources */,
 				6DBD37222A33969B0065A615 /* dancasinfo.swift in Sources */,
 				6D931EFE2A3BE59100B208E4 /* TelafinalView.swift in Sources */,
 				6DDF84322A33936A003A6B15 /* Teladeperfil.swift in Sources */,
 				6DBD37282A33DA550065A615 /* dancascardlistView.swift in Sources */,
+				CEAB09C72A3CE31C0050FF7F /* CardView.swift in Sources */,
 				6DDF84062A33927C003A6B15 /* appdedancinhaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		6DDF84142A339281003A6B15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DDF84012A33927C003A6B15 /* appdedancinha */;
+			target = 6DDF84012A33927C003A6B15 /* appDanca */;
 			targetProxy = 6DDF84132A339281003A6B15 /* PBXContainerItemProxy */;
 		};
 		6DDF841E2A339281003A6B15 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6DDF84012A33927C003A6B15 /* appdedancinha */;
+			target = 6DDF84012A33927C003A6B15 /* appDanca */;
 			targetProxy = 6DDF841D2A339281003A6B15 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -435,7 +443,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -453,7 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"appdedancinha/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QR9XYA95WF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -466,7 +474,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appdedancinha;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appdanca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,7 +490,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"appdedancinha/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = QR9XYA95WF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -495,7 +503,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appdedancinha;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appdanca;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -518,7 +526,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appdedancinha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appdedancinha";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appDanca.appDanca/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appDanca";
 			};
 			name = Debug;
 		};
@@ -527,17 +535,19 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR9XYA95WF;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appdedancinhaTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appTeste;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appdedancinha.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appdedancinha";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appDanca.appDanca/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/appDanca";
 			};
 			name = Release;
 		};
@@ -562,12 +572,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QR9XYA95WF;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appdedancinhaUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.desafio.appUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,7 +592,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6DDF83FD2A33927C003A6B15 /* Build configuration list for PBXProject "appdedancinha" */ = {
+		6DDF83FD2A33927C003A6B15 /* Build configuration list for PBXProject "appDanca" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DDF84242A339281003A6B15 /* Debug */,
@@ -587,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DDF84262A339281003A6B15 /* Build configuration list for PBXNativeTarget "appdedancinha" */ = {
+		6DDF84262A339281003A6B15 /* Build configuration list for PBXNativeTarget "appDanca" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DDF84272A339281003A6B15 /* Debug */,
@@ -596,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DDF84292A339281003A6B15 /* Build configuration list for PBXNativeTarget "appdedancinhaTests" */ = {
+		6DDF84292A339281003A6B15 /* Build configuration list for PBXNativeTarget "appDancaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DDF842A2A339281003A6B15 /* Debug */,
@@ -605,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6DDF842C2A339281003A6B15 /* Build configuration list for PBXNativeTarget "appdedancinhaUITests" */ = {
+		6DDF842C2A339281003A6B15 /* Build configuration list for PBXNativeTarget "appDancaUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6DDF842D2A339281003A6B15 /* Debug */,

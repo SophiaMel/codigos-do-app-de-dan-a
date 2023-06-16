@@ -18,8 +18,16 @@ struct Telainicial: View {
                     .fontWeight(.heavy)
                     .foregroundColor(Color.primary)
                     .padding(.bottom, 25)
-                
                 Spacer()
+            }
+            VStack{
+                Text("Entre no clima carnavalesco!")
+                    .font(.body)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.leading)
+                    .padding(.bottom, 615.0)
+                    .padding(.trailing, 120.0)
             }
         }
         
