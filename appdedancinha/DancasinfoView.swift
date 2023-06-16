@@ -11,7 +11,6 @@ struct DancasinfoView: View {
     var DancasInfo: dancasinfo
     @State private var showWebView = false
     var body: some View {
-        NavigationView{
             ZStack {
                 ScrollView {
                     VStack {
@@ -37,7 +36,7 @@ struct DancasinfoView: View {
                             .frame(width:330, height: 288)
                             .cornerRadius(10)
                             .shadow(color: .black.opacity(0.3), radius: 20.0, x: 5, y: 5)
-                        NavigationLink(destination: DancaFinalizadaView(DancasInfo: DancasInfo) ){
+                        NavigationLink(destination: TelafinalView(DancasInfo: DancasInfo) ){
                             Text("Finalizar")
                                 .bold()
                                 .font(.title2)
@@ -56,40 +55,6 @@ struct DancasinfoView: View {
             }.navigationBarTitleDisplayMode(.inline)
         }
     }
-}
-struct DancaFinalizadaView: View {
-    var DancasInfo: dancasinfo
-    var body: some View {
-        ZStack{
-            ScrollView{
-                VStack{
-                    HStack{
-                        Text("Você acabou de dançar:").font(.title2).foregroundColor(.primary).lineLimit(3).padding(.vertical, 15)
-                        Text(DancasInfo.name).font(.title2)
-                            .foregroundColor(.yellow).lineLimit(3).padding(.vertical, 15)
-                        
-                    }
-                    .frame(maxWidth: .infinity)
-                    Text("Parabéns! Você foi demais se garantiu e brilhou! Que tal mais uma dancinha?🤩").multilineTextAlignment(.leading)
-                        .font(.title)
-                        .fontWeight(.heavy)
-                        .foregroundColor(Color.yellow)
-                        .padding(.bottom, 25)
-                    Text("Você está progredindo rápido e está mandando ver!").multilineTextAlignment(.leading)
-                        .font(.body)
-
-                        .foregroundColor(Color.black)
-                        .padding(.bottom, 25)
-                    
-                }
-                .padding(.horizontal, 20)
-                
-            }
-            .background(Color(hue: 0.879, saturation: 0.31, brightness: 0.888).ignoresSafeArea())
-        }
-    }
-}
-
 struct WebView: UIViewRepresentable {
     let url: URL
     func makeUIView(context: Context) -> WKWebView {

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		6D0E33992A33F033008B01E7 /* DancasinfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0E33982A33F033008B01E7 /* DancasinfoView.swift */; };
 		6D8A85962A3393B0002C4246 /* Teladedança.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A85952A3393B0002C4246 /* Teladedança.swift */; };
+		6D931EFE2A3BE59100B208E4 /* TelafinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D931EFD2A3BE59100B208E4 /* TelafinalView.swift */; };
+		6D931F002A3BE79200B208E4 /* ApresentaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D931EFF2A3BE79200B208E4 /* ApresentaView.swift */; };
+		6D931F062A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D931F052A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift */; };
 		6DBD37222A33969B0065A615 /* dancasinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD37212A33969B0065A615 /* dancasinfo.swift */; };
 		6DBD37282A33DA550065A615 /* dancascardlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DBD37272A33DA550065A615 /* dancascardlistView.swift */; };
 		6DDF84062A33927C003A6B15 /* appdedancinhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDF84052A33927C003A6B15 /* appdedancinhaApp.swift */; };
@@ -42,6 +45,9 @@
 /* Begin PBXFileReference section */
 		6D0E33982A33F033008B01E7 /* DancasinfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DancasinfoView.swift; sourceTree = "<group>"; };
 		6D8A85952A3393B0002C4246 /* Teladedança.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Teladedança.swift"; sourceTree = "<group>"; };
+		6D931EFD2A3BE59100B208E4 /* TelafinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelafinalView.swift; sourceTree = "<group>"; };
+		6D931EFF2A3BE79200B208E4 /* ApresentaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApresentaView.swift; sourceTree = "<group>"; };
+		6D931F052A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TelaPerfil-ViewModel.swift"; sourceTree = "<group>"; };
 		6DBD37212A33969B0065A615 /* dancasinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancasinfo.swift; sourceTree = "<group>"; };
 		6DBD37272A33DA550065A615 /* dancascardlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancascardlistView.swift; sourceTree = "<group>"; };
 		6DDF84022A33927C003A6B15 /* appdedancinha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appdedancinha.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +122,9 @@
 				6DBD37212A33969B0065A615 /* dancasinfo.swift */,
 				6DBD37272A33DA550065A615 /* dancascardlistView.swift */,
 				6D0E33982A33F033008B01E7 /* DancasinfoView.swift */,
+				6D931EFD2A3BE59100B208E4 /* TelafinalView.swift */,
+				6D931EFF2A3BE79200B208E4 /* ApresentaView.swift */,
+				6D931F052A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift */,
 			);
 			path = appdedancinha;
 			sourceTree = "<group>";
@@ -279,7 +288,10 @@
 				6DDF84302A339349003A6B15 /* Telainicial.swift in Sources */,
 				6DDF84082A33927C003A6B15 /* ContentView.swift in Sources */,
 				6D8A85962A3393B0002C4246 /* Teladedança.swift in Sources */,
+				6D931F062A3BFBEB00B208E4 /* TelaPerfil-ViewModel.swift in Sources */,
+				6D931F002A3BE79200B208E4 /* ApresentaView.swift in Sources */,
 				6DBD37222A33969B0065A615 /* dancasinfo.swift in Sources */,
+				6D931EFE2A3BE59100B208E4 /* TelafinalView.swift in Sources */,
 				6DDF84322A33936A003A6B15 /* Teladeperfil.swift in Sources */,
 				6DBD37282A33DA550065A615 /* dancascardlistView.swift in Sources */,
 				6DDF84062A33927C003A6B15 /* appdedancinhaApp.swift in Sources */,

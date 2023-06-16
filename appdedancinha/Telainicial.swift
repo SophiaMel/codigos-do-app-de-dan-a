@@ -9,7 +9,20 @@ import SwiftUI
 
 struct Telainicial: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Color(hue: 0.78, saturation: 0.299, brightness: 0.984)
+                .ignoresSafeArea()
+            VStack{
+                Text("Bem vindo ao Dança Brasil!").multilineTextAlignment(.leading)
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color.primary)
+                    .padding(.bottom, 25)
+                
+                Spacer()
+            }
+        }
+        
     }
 }
 
