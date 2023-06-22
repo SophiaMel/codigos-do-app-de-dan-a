@@ -10,7 +10,7 @@ import SwiftUI
 struct Teladedanc_a: View {
     @State private var searchTerm = ""
     var body: some View {
-        NavigationView{
+        NavigationStack{
             ScrollView {
                 VStack {
                     HStack {

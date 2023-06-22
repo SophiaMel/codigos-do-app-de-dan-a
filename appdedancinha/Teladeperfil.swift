@@ -23,10 +23,17 @@ struct Teladeperfil: View {
                     // Show a login screen
                     ZStack {
                       
-                        VStack(alignment: .leading, spacing: 20) {
+                        VStack(alignment: .center, spacing: 20) {
                             Spacer()
-                            Text("Log in")
-                                .foregroundColor(.white)
+                            Image(systemName: "person")
+                                .resizable()
+                                .foregroundColor(Color.white)
+                                .aspectRatio(contentMode: .fill)
+                                .frame(height: 200)
+                                .frame(maxWidth: UIScreen.main.bounds.width - 300)
+                            Spacer()
+                            Text("Login")
+                                .foregroundColor(.black)
                                 .font(.system(size: 40, weight: .medium, design: .rounded))
                                 .underline()
 
@@ -37,16 +44,14 @@ struct Teladeperfil: View {
                                 .textFieldStyle(.roundedBorder)
                                 .textInputAutocapitalization(.never)
                                 .privacySensitive()
-                            HStack {
-                                Spacer()
-                                Button("Esqueceu a senha?", action: vm.logPressed)
-                                    .tint(.red.opacity(0.80))
-                                Spacer()
-                                Button("Log on",role: .cancel, action: vm.authenticate)
+                            VStack {
+                                Button("Continua",role: .cancel, action: vm.authenticate)
+                                    .frame(width: 358.0, height: 50.0)
                                     .buttonStyle(.bordered)
                                     .foregroundColor(Color.white)
                                     .background(Color(red: 0.796078431372549, green: 0.30196078431372547, blue: 0.6352941176470588, opacity: 0.919))
-                                Spacer()
+                                Button("Esqueceu a senha?", action: vm.logPressed)
+                                    .tint(.blue.opacity(0.80))
                             }
                             Spacer()
                         }
@@ -57,7 +62,7 @@ struct Teladeperfil: View {
                         .padding()
                     }
                     .transition(.offset(x: 0, y: 850))
-                    .background(Color(hue: 0.879, saturation: 0.31, brightness: 0.888))
+                    .background(Color(red: 0.9254901960784314, green: 0.8196078431372549, blue: 0.9764705882352941))
                 }
     }
 }

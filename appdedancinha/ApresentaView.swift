@@ -21,13 +21,19 @@ struct ApresentaView: View {
                 .padding(.bottom, 732.0)
                 .padding(.leading, 290.0)
                 ZStack{
+                    Image("DancaBrasil")
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .padding(.bottom, 200.0)
+                        .frame(height: 220)
+                        .frame(maxWidth: UIScreen.main.bounds.width - 80)
                     VStack{
                         Text("Olá,")
                         Text("Seja bem-vindo(a) ao Dança Brasil")
                     }
                     .bold()
                     .foregroundColor(.white)
-                    .padding(.top, 335.0)
+                    .padding(.top, 200.0)
                     .font(.title2)
                     
                     VStack{
@@ -36,7 +42,7 @@ struct ApresentaView: View {
                             .font(.footnote)
                             .fontWeight(.light)
                             .multilineTextAlignment(.center)
-                            .padding(.top, 443.0)
+                            .padding(.top, 300.0)
                             .padding(.horizontal)
                     }
                 }
