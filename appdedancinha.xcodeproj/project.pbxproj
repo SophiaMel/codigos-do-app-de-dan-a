@@ -117,8 +117,8 @@
 				6DDF84052A33927C003A6B15 /* appdedancinhaApp.swift */,
 				6DDF84072A33927C003A6B15 /* ContentView.swift */,
 				6DDF84092A339281003A6B15 /* Assets.xcassets */,
-				6DDF840B2A339281003A6B15 /* Preview Content */,
 				6DDF842F2A339349003A6B15 /* Telainicial.swift */,
+				6DDF840B2A339281003A6B15 /* Preview Content */,
 				6DDF84312A33936A003A6B15 /* Teladeperfil.swift */,
 				6D8A85952A3393B0002C4246 /* Teladedança.swift */,
 				6DBD37212A33969B0065A615 /* dancasinfo.swift */,
@@ -460,7 +460,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Dancas Brasil";
+				INFOPLIST_KEY_CFBundleDisplayName = "Danca Brasil";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,7 +490,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Dancas Brasil";
+				INFOPLIST_KEY_CFBundleDisplayName = "Danca Brasil";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

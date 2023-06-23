@@ -52,7 +52,8 @@ struct DancasinfoView: View {
                 
                 .frame(maxWidth: .infinity)
                 
-            }.navigationBarTitleDisplayMode(.inline)
+            }
+            .navigationBarTitleDisplayMode(.inline)
             .background(Color(red: 0.9254901960784314, green: 0.8196078431372549, blue: 0.9764705882352941).ignoresSafeArea())
         }
     

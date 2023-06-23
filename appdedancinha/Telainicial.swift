@@ -47,29 +47,25 @@ struct Telainicial: View {
                             }else {
                                 ForEach(dancasdecasal[0..<dancasdecasal.count]) { post in
                                     NavigationLink(destination: DancasinfoView(DancasInfo: post)) {
-                                       CardView(DancasInfo: post)
-                                                    }
-                                                }
-                                            }
-                                        }
-                                        .padding(.leading, 15)
-                                        .padding(.trailing, 30)
+                                        CardView(DancasInfo: post)
                                     }
-                                    .frame(height: 420)
-                                     
-                                    Spacer()
                                 }
-                                .padding(.bottom, 40)
+                            }
+                        }
+                        .padding(.leading, 15)
+                        .padding(.trailing, 30)
+                    }
+                    .frame(height: 420)
+                    
+                    Spacer()
+                }
+                .padding(.bottom, 40)
                 
                 
             }
             .navigationTitle("Dança Brasil")
-            .background(Color(red: 0.9254901960784314, green: 0.8196078431372549, blue: 0.9764705882352941).ignoresSafeArea())
-            }
         }
-        
-        
-        
+    }
 }
 
 

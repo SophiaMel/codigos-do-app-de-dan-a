@@ -9,24 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TabView{
+        TabView {
             Telainicial()
                 .tabItem{
                     Image(systemName:"house")
                     Text("Início")
                 }
-            Teladeperfil()
-                .tabItem{
-                    Image(systemName:"person")
-                    Text("Perfil")
-            }
+            
             Teladedanc_a()
-                .tabItem{
-                    Image(systemName:"play")
-                    Text("Dança")
-                }
+            .tabItem{
+                Image(systemName:"play")
+                Text("Dança")
+            }
         }
-        .navigationBarBackButtonHidden()
+        .toolbar(.hidden, for: .navigationBar)
     }
 }
 

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct TelafinalView: View {
+    
+    @Environment(\.dismiss) var dismiss
+    
     var DancasInfo: dancasinfo
     var body: some View {
         ZStack{
@@ -34,7 +37,10 @@ struct TelafinalView: View {
                         .foregroundColor(Color.black)
                         .padding(.bottom, 25)
                         .frame(width: 300.0)
-                    NavigationLink(destination: DancasinfoView(DancasInfo: DancasInfo) ){
+                    
+                    Button {
+                        dismiss()
+                    } label: {
                         Text("Dançar novamente")
                             .bold()
                             .font(.title3)
@@ -42,19 +48,8 @@ struct TelafinalView: View {
                             .background(Color.white)
                             .foregroundColor(Color(red: 0.7333333333333333, green: 0.4196078431372549, blue: 0.8509803921568627))
                             .cornerRadius(10)
-                        
                     }
                     
-                    NavigationLink(destination: ContentView() ){
-                        Text("Voltar pro início")
-                            .bold()
-                            .font(.title3)
-                            .frame(width: 358.0,height: 50)
-                            .background(Color.white)
-                            .foregroundColor(Color(red: 0.7333333333333333, green: 0.4196078431372549, blue: 0.8509803921568627))
-                            .cornerRadius(10)
-                        
-                    }
                     
                     .padding(.horizontal, 20)
                     
