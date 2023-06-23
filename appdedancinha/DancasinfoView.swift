@@ -41,8 +41,8 @@ struct DancasinfoView: View {
                                 .bold()
                                 .font(.title2)
                                 .frame(width: 215,height: 50)
-                                .background(Color(red: 0.796078431372549, green: 0.30196078431372547, blue: 0.6352941176470588, opacity: 0.919))
-                                .foregroundColor(.white)
+                                .background(Color.white)
+                                .foregroundColor(Color(red: 0.7333333333333333, green: 0.4196078431372549, blue: 0.8509803921568627))
                                 .cornerRadius(10)
                             
                         }
@@ -53,7 +53,9 @@ struct DancasinfoView: View {
                 .frame(maxWidth: .infinity)
                 
             }.navigationBarTitleDisplayMode(.inline)
+            .background(Color(red: 0.9254901960784314, green: 0.8196078431372549, blue: 0.9764705882352941).ignoresSafeArea())
         }
+    
     }
 struct WebView: UIViewRepresentable {
     let url: URL

@@ -13,8 +13,9 @@ struct Teladeperfil: View {
         if vm.authenticated {
                     // Show the view you want users to see when logged on
                     VStack(spacing: 20) {
-                        Text("Welcome back **\(vm.username.lowercased())**!")
-                        Text("Today is: **\(Date().formatted(.dateTime))**")
+                        Text("Bem Vindo **\(vm.username.lowercased())**!")
+                        Text("Hoje é: **\(Date().formatted(.dateTime))**")
+                        Text("Continue dançando você está indo muito bem!")
                         Button("Log out", action: vm.logOut)
                             .tint(.red)
                             .buttonStyle(.bordered)

@@ -14,7 +14,8 @@ struct Telainicial: View {
                 VStack {
                     HStack {
                         Text("Clima de São João!")
-                            .font(.title.bold())
+                            .font(.title2)
+                            .fontWeight(.bold)
                         Spacer()
                     }
                     LazyVStack {
@@ -29,7 +30,8 @@ struct Telainicial: View {
                 VStack {
                     HStack {
                         Text("Danças de casal")
-                            .font(.title.bold())
+                            .font(.title2)
+                            .fontWeight(.bold)
                         Spacer()
                         
                     }
@@ -61,7 +63,8 @@ struct Telainicial: View {
                 
                 
             }
-            .navigationTitle("Danças")
+            .navigationTitle("Dança Brasil")
+            .background(Color(red: 0.9254901960784314, green: 0.8196078431372549, blue: 0.9764705882352941).ignoresSafeArea())
             }
         }
         

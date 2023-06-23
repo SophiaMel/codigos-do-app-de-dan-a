@@ -14,9 +14,6 @@ struct Teladedanc_a: View {
             ScrollView {
                 VStack {
                     HStack {
-                        Text("Estilos:")
-                            .font(.title.bold())
-                        Spacer()
                     }
                     LazyVStack {
                         ForEach(dancelist.filter {
@@ -38,9 +35,14 @@ struct Teladedanc_a: View {
             .navigationBarItems(trailing: Button(action: {}) { Image(systemName: "arrow.clockwise.circle.fill")
                     .resizable()
                     .frame(width: 30, height: 30)
+                
+                
             })
         }
     }
+     
+    
+    
 }
     
     
